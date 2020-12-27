@@ -1,0 +1,7 @@
+1. URL for getusers API: http://127.0.0.1:8000/users/
+2. URL for adduser API: http://127.0.0.1:8000/add/
+    JSON required for adding user: {"username": "name of user to add"}
+    ** username should be unique
+3. URL for creation of IOU: http://127.0.0.1:8000/iou/
+    JSON required for creation of IOU: {"lender":"osheen","borrower":"Ayushi","amount":5.25}
+    **on sending this request will receive a summary of both lender and borrower.
